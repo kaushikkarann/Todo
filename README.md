@@ -57,13 +57,9 @@ src/
 └── ...
 ```
 
-## Future Improvements
+## Live Demo
 
-- Task categories
-- Due dates
-- Dark mode
-- Local storage or database support
-- Drag and drop task ordering
+https://todo-k2qetmxnk-kaushikkaranns-projects.vercel.app/ 
 
 ## License
 
