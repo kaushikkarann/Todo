@@ -1,8 +1,6 @@
 
 import React from 'react'
 
-
-
 export default function  List({
   title,
   description,
@@ -13,9 +11,8 @@ export default function  List({
 }){
    return (
   <>
-   <div  
-  //  className='bg-violet-200 max-w-100 m-1 rounded-xl h-max hover:border-gray-900   p-3 '
-  className={`rounded-xl  p-3 h-max max-w-100   ${completed?"bg-blue-100 ":"bg-violet-200"}`}
+   <div 
+  className={`rounded-xl transform transition-all duration-300  p-3 h-max max-w-100   ${completed?"bg-blue-100  ":"bg-violet-200"}`}
   
   >
     <div className=" flex justify-between items-start">
@@ -27,9 +24,10 @@ export default function  List({
       <p className=' wrap-break-word'>{description}</p>
     </div>
     <div className="btn mt-3 gap-2 text-white flex  ">
-      <button className='bg-red-300 hover:w-full transition-all p-2 w-50  rounded-full ease-in-out hover:bg-red-400'
+      <button
+       className='cursor-pointer bg-red-400  p-2 rounded-full hover:bg-red-500 w-50 transition-all ease-in-out hover:w-100 '
        onClick={handledelete}>Delete</button>
-      <button className='bg-blue-400 p-2 rounded-full hover:bg-blue-500 w-50 transition-all ease-in-out hover:w-100 '
+      <button className='cursor-pointer bg-blue-400 p-2 rounded-full hover:bg-blue-500 w-50 transition-all ease-in-out hover:w-100 '
       onClick={completeFun}
       >Completed</button>
 
