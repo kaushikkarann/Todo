@@ -58,8 +58,7 @@ src/
 ```
 
 ## Live Demo
-
-https://todo-k2qetmxnk-kaushikkaranns-projects.vercel.app/ 
+https://todo-nine-beta-51.vercel.app/
 
 ## License
 
